@@ -12,7 +12,6 @@ function Layout({ children }) {
     if (e.target.id !== "MENU") {
       setOpenMenu(false);
     }
-    console.log(e.target.id);
   };
 
   return (
